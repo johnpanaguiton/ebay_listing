@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400');
+
+.container {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 1.5vw;
+  padding: 2vw 3vw 3vw 3vw;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+}
+
+.section {
+  margin-top: 3vw;
+}
+
+.center {
+  position: relative;
+  top: 30%;
+}
+
+.right-align {
+  text-align: right;
+}
+
+.col-1 { width: 10% }
+.col-2 { width: 20% }
+.col-3 { width: 30% }
+.col-4 { width: 40% }
+.col-5 { width: 50% }
+.col-6 { width: 60% }
+.col-7 { width: 70% }
+.col-8 { width: 80% }
+.col-9 { width: 90% }
+.col-10 { width: 100% }
+.col-15 { width: 15% }
+.col-25 { width: 25% }
+.col-35 { width: 35% }
+.col-45 { width: 45% }
+.col-55 { width: 55% }
+.col-65 { width: 65% }
+.col-75 { width: 75% }
+.col-85 { width: 85% }
+.col-95 { width: 95% }
+.col-33 { width: 33% }
+
+.img-10h { height: 10vw }
+.img-30 { width: 30vw }
+
+/* Navigation Bar */
+.nav {
+  font-size: 1.5vw;
+}
+
+.nav > .blocks {
+  text-align: center;
+  border-left: 1px solid black;
+  padding: 2vw 0vw 2vw 0vw;
+}
+
+.large.blocks {
+  font-size: 2vw;
+}
+
+.blocks > ul {
+  margin: 0vw 0vw 0vw -40px;
+  font-size: 0.75vw;
+  list-style: none;
+}
+
+.nav > .blocks:last-child {
+  border-right: 1px solid black;
+}
+
+.nav > .right {
+  position: relative;
+  top: 1.5vw;
+  text-align: right;
+}
+
+.nav > .right > p {
+  font-size: 1.25vw;
+  margin: 0px 0px 0.5vw 0px;
+}
+
+/* Product Main Div */
+.product-title {
+  font-size: 4vw;
+}
+
+.currency {
+  color: #dd0000;
+}
+
+.price {
+  color: #dd0000;
+  font-weight: bold;
+  font-size: 3vw;
+}
+
+.payment-methods {
+  margin-top: 1vw;
+}
+
+.payment-methods > img {
+  width: 5vw;
+}
+
+/* Related */
+.related {
+  background-color: #eee;
+  padding: 0px 1.5vw 2.5vw 1.5vw;
+}
+
+.rel-product {
+  display: flex;
+  font-size: 0.8vw;
+}
+
+.rel-product > img {
+  margin-right: 1vw;
+}
+
+.rel-title {
+  font-size: 1vw;
+  font-weight: bold;
+  margin: 0vw 0.2vw 0vw 0vw;
+}
+
+.rel-details {
+  margin: 0vw 0vw 1vw 0vw;
+}
+
+.rel-currency {
+  color: #dd0000;
+}
+
+.rel-price {
+  color: #dd0000;
+  font-weight: bold;
+  font-size: 1vw;
+}
