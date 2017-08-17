@@ -88,6 +88,13 @@
 /* Product Main Div */
 .product-title {
   font-size: 4vw;
+  margin: 5vw 0vw 0vw 0vw;
+}
+
+.product-subtitle {
+  font-size: 2vw;
+  font-style: italic;
+  margin: 0vw 0vw 5vw 0vw;
 }
 
 .currency {
