@@ -107,6 +107,11 @@
   font-size: 3vw;
 }
 
+.certifications {
+  width: 9vw;
+  margin-left: 2vw;
+}
+
 .payment-methods {
   margin-top: 1vw;
 }
@@ -240,9 +245,4 @@
 
 .right-align > .footer-dscp {
   padding: 0px 10px 1vw 0px;
-}
-
-.certifications {
-  width: 7.5vw;
-  margin-left: 5vw;
 }
