@@ -120,6 +120,10 @@
   width: 5vw;
 }
 
+.social-media-icons {
+  font-size: 1vw;
+}
+
 .social-media-icons > a {
   text-decoration: none;
   margin-top: 0.75vw;
@@ -155,8 +159,12 @@
   background: #55ACEE;
 }
 
-.fa-instagram {
-  background: #125688;
+.fa-google-plus {
+  background: #bb0000;
+}
+
+.fa-envelope {
+  background: #999;
 }
 
 .additional-image-left {
