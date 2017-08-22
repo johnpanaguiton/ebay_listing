@@ -130,10 +130,10 @@
   padding: 0.5vw;
   font-size: 1vw;
   width: 1vw;
-  text-align: center;
   text-decoration: none;
   color: #fff;
   border-radius: 100%;
+  text-align: center;
 }
 
 .social-media-icons > a:hover {
@@ -235,7 +235,7 @@
 }
 
 .footer-title {
-  font-size: 1vw;
+  font-size: 2vw;
   font-weight: bold;
   margin: 0px;
   padding: 0px 5px 0.5vw 10px;
@@ -246,7 +246,7 @@
 }
 
 .footer-dscp {
-  font-size: 0.75vw;
+  font-size: 1vw;
   margin: 0px;
   padding: 0px 0px 1vw 10px;
 }
