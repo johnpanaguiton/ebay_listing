@@ -44,10 +44,10 @@
 .col-75 { width: 75% }
 .col-85 { width: 85% }
 .col-95 { width: 95% }
-.col-33 { width: 33% }
+.col-33 { width: 33%; padding: 0px 5px 0px 5px; }
 
-.img-10h { height: 10vw }
-.img-30 { width: 30vw }
+.img-10h { height: 10vw; }
+.img-30 { width: 30vw; padding: 0px 0px 0px 0px; }
 
 /* Navigation Bar */
 .nav {
@@ -115,6 +115,53 @@
   width: 5vw;
 }
 
+.social-media-icons > a {
+  text-decoration: none;
+  margin-top: 0.75vw;
+  padding: 0.5vw;
+  font-size: 1vw;
+  width: 1vw;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 100%;
+}
+
+.social-media-icons > a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.social-media-icons > a:visited {
+  text-decoration: none;
+  color: #fff;
+}
+
+.social-media-icons > a:active {
+  text-decoration: none;
+  color: #999;
+}
+
+.fa-facebook {
+  background: #3B5998;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+}
+
+.fa-instagram {
+  background: #125688;
+}
+
+.additional-image-left {
+  padding: 0px 20px 0px 0px;
+}
+
+.additional-image-right {
+  padding: 0px 0px 0px 20px;
+}
+
 /* Related */
 .related {
   background-color: #eee;
@@ -136,6 +183,26 @@
   margin: 0vw 0.2vw 0vw 0vw;
 }
 
+.rel-title > a {
+  text-decoration: none;
+  color: #000;
+}
+
+.rel-title > a:hover {
+  text-decoration: underline;
+  color: #000;
+}
+
+.rel-title > a:active {
+  text-decoration: none;
+  color: #000;
+}
+
+.rel-title > a:visited {
+  text-decoration: none;
+  color: #000;
+}
+
 .rel-details {
   margin: 0vw 0vw 1vw 0vw;
 }
@@ -148,4 +215,34 @@
   color: #dd0000;
   font-weight: bold;
   font-size: 1vw;
+}
+
+/* Footer */
+.footer-details {
+}
+
+.footer-title {
+  font-size: 1vw;
+  font-weight: bold;
+  margin: 0px;
+  padding: 0px 5px 0.5vw 10px;
+}
+
+.right-align > .footer-title {
+  padding: 0px 10px 0.5vw 5px;
+}
+
+.footer-dscp {
+  font-size: 0.75vw;
+  margin: 0px;
+  padding: 0px 0px 1vw 10px;
+}
+
+.right-align > .footer-dscp {
+  padding: 0px 10px 1vw 0px;
+}
+
+.certifications {
+  width: 7.5vw;
+  margin-left: 5vw;
 }
