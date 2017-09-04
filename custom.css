@@ -7,9 +7,16 @@
   padding: 2vw 3vw 3vw 3vw;
 }
 
+.filler-row {
+  clear: left;
+}
+
 .row {
   width: 100%;
-  display: flex;
+}
+
+.row > .col {
+  float: left;
 }
 
 .section {
@@ -17,8 +24,7 @@
 }
 
 .center {
-  position: relative;
-  top: 30%;
+  margin-top: 25px;
 }
 
 .right-align {
@@ -46,7 +52,7 @@
 .col-95 { width: 95% }
 .col-33 { width: 33%; padding: 0px 5px 0px 5px; }
 
-.img-10h { height: 10vw; }
+.img-10h { height: 10vw; float: left;}
 .img-30 { width: 30vw; padding: 0px 0px 0px 0px; }
 
 /* Navigation Bar */
@@ -179,11 +185,17 @@
 .related {
   background-color: #eee;
   padding: 0px 1.5vw 2.5vw 1.5vw;
+  margin-top: 20px;
+  height: 17vw;
+}
+
+.rel-sec-title {
+  padding-top: 2.5px;
 }
 
 .rel-product {
-  display: flex;
   font-size: 0.8vw;
+  float: left;
 }
 
 .rel-product > img {
